@@ -1,0 +1,21 @@
+.customer-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.search-div input{
+    width: 15rem;
+    padding: 5px 20px;
+    border-radius: 20px;
+}
+table {
+    width: 70%;
+    text-align: left;
+}
+td {
+    padding: .3rem 1px;
+}
+tr:nth-child(even) {
+    background-color: rgba(58, 58, 58, 0.214);
+}
